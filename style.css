@@ -1,0 +1,21 @@
+*{
+    margin: 40;
+    padding: 40;
+    font-family: sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bg002.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.content
+{
+    background-image: url(images/bg001.jpg");
+    margin: 40px 40px;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
