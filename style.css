@@ -3,19 +3,32 @@
     padding: 40;
     font-family: sans-serif;
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(images/bg002.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+
+.content {
+    background-color: beige;
+    margin: 8px;
+    padding: 8px;
+
 }
-.content
-{
-    background-image: url(images/bg001.jpg");
-    margin: 40px 40px;
-    padding: 10px 10px;
-    text-decoration: none;
-    
+
+.banner {
+    margin: 0%;
+    padding: 8px;
+    background-color: red;
 }
+
+.go-button {
+    background-color: white;
+    color: red;
+    border-color: white;
+    border-style: solid;
+    height: 24px;
+    width: 36px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
