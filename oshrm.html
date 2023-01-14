@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OS/HRM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <button class="go-button">
+      <a href="index.html">Apply</a>
+    </button>
+  </div>
+  <div class="content">
+
+<!-- directives: [] -->
+<div id="content">
+  <ul>
+    <b>緣由</b><hr>
+    <li>根據經濟部<a href="https:www.pwc.tw/zh/publications/topic-report/assets/sme-digitalisation-survey.pdf" target="_blank">《2020 年中小企業白皮書》</a>統計指出：「<i><b>臺灣有 149 萬家的中小企業，在其中就業的人數就占全體就業人數的 73.3%，中小企業內銷金額共 11 兆 2,992 億元，占所有內銷金額比重的89%。</b></i>」多數人依靠中小企業生活，中小企業也是支撐國內市場發展的重要骨幹。</li>
+    <li>我們經營的<a href="https:www.oil.com.tw/" target="_blank"><i><b>隆福行股份有限公司</b></i></a>就是這149萬中的一家，回顧自1980年我加入公司時，尚屬於那15.2%的9人以下的公司之一，到目前進步為資本額超過1億，員工200人以下的2.1%的其中一家。追溯其因，「自從1981年開始，持續至今的數位化改善工作」實為重要。
+      <p>	  由於主要的ERP系統都是自行開發，也分享給四個關係企業使用，因此對於企業在HRM工作上的需求有著強烈的感受，過去四十多年中面臨了許多影響HRM的變革，比如勞保、健保、二代健保的迍邅，勞基法對於休假規定的變化，員工工作型態的演化..等等，在這過程當中，我們看到許多客戶、同業、甚至朋友、同學經營的公司，往往在管理作業上趕不上變化而頭痛，對於我們可以用程式代勞，還可以適時的對HRM系統進行修改，都十分欽羨。四十年來，這些公司雖然陸陸續續電腦化，但多數使用套裝軟體，因系統的僵化，還是難以靈活應變。
+        <br />
+	  我們公司在開發過程中，因Open Source之賜，得到很大的助力，亟思分享經驗作為回饋。適逢主要的ERP系統考慮做較大的更新，因此利用改版之便，擬由HRM開始嘗試，透過Github開發為OSS，與大家集思廣益，並將所有的程式碼分享大眾。
+        <br />
+      </p>
+    </li>
+    <hr>
+
+    <li><h2>Reference Material collecting</h2></li>
+    <li>
+      <h4>10 most popular  Open Source Human Resource Management software</h4>
+      <ul>
+        <li><a href="https:www.cybrosys.com/odoo/industries/human-resource/" target="_blank">Odoo HR</a>  A comprehensive HR management solution that includes modules for employee management, recruiting, performance evaluations, and more.</li>
+        <li><a href="https:www.orangehrm.com/" target="_blank">OrangeHRM</a>  A popular open-source HR management solution that includes modules for employee information management, leave management, time and attendance tracking, and more.</li>
+        <li><a href="https:www.humhub.com/en" target="_blank">HumHub</a>  A social network-based HR management solution that includes modules for employee profiles, document management, and more.</li>
+        <li><a href="http:www.sentrifugo.com/" target="_blank">Sentrifugo HRMS</a>  A comprehensive HR management solution that includes modules for employee information management, performance evaluations, recruitment, and more.</li>
+        <li><a href="https:adempiere.github.io/" target="_blank">ADempiere</a>  An open-source ERP and CRM solution that includes HR management modules.</li>
+        <li><a href="https:www.talend.com/" target="_blank">Talend</a>  A data management solution that includes HR management modules.</li>
+        <li><a href="https:suitecrm.com/" target="_blank">SuiteCRM</a>  A CRM solution that includes HR management modules.</li>
+        <li><a href="https:www.dolibarr.org/" target="_blank">Dolibarr</a>  An ERP and CRM solution that includes HR management modules.</li>
+        <li><a href="https:erpnext.com/" target="_blank">ERPNext</a>  An ERP solution that includes HR management modules.</li>
+        <li><a href="https:www.timetrex.com/" target="_blank">TimeTrex</a>  A time and attendance tracking solution that includes HR management modules.</li>
+      </ul>
+    </li>
+    <li>
+      <blockquote>
+        <p>Note: There are many Open Source Human Resource Management software out there and the above list is not exhaustive but just a sample of popular ones.
+          <br />
+</p>
+      </blockquote>
+</li>
+    <li>
+      <h4>台灣的HRM 開源軟體</h4>
+      <ul>
+        <li><a href="https:www.openhrms.org/" target="_blank">OpenHRMS</a> 全面的HRM軟體，包括員工管理、招聘、績效考核等模組。</li>
+        <li><a href="https:hrs.tw/" target="_blank">HRS</a> 簡單易用的HRM軟體，包括員工管理、假期管理、時間計劃等模組。</li>
+        <li><a href="https:www.lighthouseindia.com/erp-software-module-for-human-resource-management.html" target="_blank">HRM-ERP</a> ERP軟體，包括HRM模組，支持員工管理、時間計劃、績效考核等功能。</li>
+        <li><a href="https:hrm-crm.com/" target="_blank">HRM-CRM</a> CRM軟體，包括HRM模組，支持員工管理、招聘、績效考核等功能。</li>
+        <li><a href="https:hrm-saas.froid.works/" target="_blank">HRM-SaaS</a> SaaS軟體，包括HRM模組，支持員工管理、假期管理、績效考核等功能。</li>
+        <li><a href="https:www.tandfonline.com/journals/rijh20" target="_blank"><b>The International Journal of Human Resource Management</b></a>
+          <ul>
+            <li>2006年中央大學有位Carol Y.Y Lin投稿談到<a href="https:www.tandfonline.com/doi/abs/10.1080/09585199700000039?journalCode=rijh20"><b>Human resource management in Taiwan</b></a></li>
+          </ul>
+        </li>
+        <li></li>
+      </ul>
+    </li>
+    <li>
+      <h4>日本的HRM 開源軟體</h4>
+      <ul>
+        <li><a href="https:sourceforge.jp/" target="_blank">SourceForge Japan</a>  is a website that hosts open-source software projects, including HRM software. It provides a platform for developers to share their code and collaborate with others on open-source projects. It&apos;s a good place to start looking for open-source HRM software in Japan as it has a lot of Japanese developers and projects.</li>
+        <li><a href="https:github.com/trending?l=ja" target="_blank">GitHub Japan</a> is a web-based platform for version control and collaboration that provides hosting for software development. It&apos;s a great place to find open-source HRM software in Japan as it has a large number of Japanese developers and projects.</li>
+        <li><a href="https:www.open-source.or.jp/" target="_blank">Open Source Initiative Japan</a>  is a non-profit organization that promotes the use of open-source software in Japan. It provides information and resources on open-source software and works to increase awareness and understanding of open-source technology in Japan. It&apos;s a good place to find information about open-source HRM software available in Japan.</li>
+        <li>
+          <blockquote>
+            <p>Note: The these 3 resources are not the specific HRM open source software, but they are the platforms where you can find and check those open source software in Japan.
+              <br />
+</p>
+          </blockquote>
+</li>
+      </ul>
+    </li>
+    <li>
+      <h4>台灣的其他有關 HRM 的參考資料</h4>
+      <ul>
+        <li><a href="https:www.swingvy.com/tw/home" target="_blank">SWINGVY</a> 
+          <p>		  <a href="https:smarthrsoftware.com/pages/tag/taiwan/" target="_blank">smartHRS智能人力資源軟件</a>
+            <br />
+		  <a href="https:www.oracle.com/tw/human-capital-management/hr/" target="_blank">Oracle台灣Human Resources</a>
+            <br />
+		  <a href="http:www.wiete.com.au/journals/WTE&amp;TE/Pages/Vol.5,%20No.1%20(2006)/43_TaiWang26.pdf" target="_blank">A framework for human resources development in Taiwan’s high tech industry </a>
+            <br />
+		  <a href="https:www.nizisolutions.com/top-software-development-company-in-taipei-taiwan/human-resource-management-system-in-tainan-taichung-kaohsiung-taipei-taiwan/" target="_blank">巴基斯坦HRM服務台灣</a>
+            <br />
+		  <a href="https:www.studyintaiwan.org/university/program/3076" target="_blank">修平科技大Department of HR</a> 不是軟體，是學系
+            <br />
+</p>
+        </li>
+        <li></li>
+        <li></li>
+      </ul>
+    </li>
+    <li>
+      <hr />
+
+      <h2>Reference Data</h2>
+    </li>
+    <li>問: please introduce some of most important Journal Quality Guide about business and management
+      <ul>
+        <li>
+          <blockquote>
+            <p>ChartGPT: 
+              <br />
+There are several important Journal Quality Guides (JQGs) used in the field of business and management. Some of the most well-known and widely used include:
+              <br />
+<b>AJG Academic Journal Quality Guide</b>: Published by the Association of Business Schools (ABS) in the United Kingdom, this guide classifies journals in the field of business and management into four tiers based on research impact, reach, quality of peer review, and relevance.
+              <br />
+<b>Financial Times (FT) Journal Rankings</b> This ranking is based on a combination of research quality and reputation, and it is widely used by business schools and researchers in the field of finance.
+              <br />
+<b>UT Dallas Journal Rankings</b>: This ranking is based on a combination of research quality and reputation, and it is widely used by business schools and researchers in the field of information systems.
+              <br />
+<b>Australian Business Deans Council (ABDC) Journal Quality List</b>: This list is compiled by the Australian Business Deans Council and is widely used by business schools and researchers in Australia and New Zealand.
+              <br />
+<b>AACSB International Journal of Teaching and Learning in Accounting</b>: This list is compiled by AACSB International and is widely used by business schools and researchers in the field of accounting.
+              <br />
+</p>
+          </blockquote>
+
+          <p>		  
+            <br />
+		  It&apos;s important to note that, these ranking and guide are not official and they are intended to be used as a guide for business schools and researchers when evaluating the quality of journals.
+            <br />
+</p>
+        </li>
+      </ul>
+    </li>
+
+    <hr />
+
+    <li><a href="https:charteredabs.org/academic-journal-guide-2021-available-now/" target="_blank">AJG2021</a> 是ABS英國商學院聯盟在2021/06/24，發佈最新的《學術期刊指南 Academic Journal Guide》，共包含期刊1703種，相比於2018版本，新增期刊163種。
+      <ul>
+        <li>
+          <blockquote>
+            <p>AJG(Academic Journal Guide,學術期刊指南）是商業和管理學者發表研究期刊的範圍和質量的指南。 其目的是為學者提供更明確的目標，以及他們所在領域的最佳工作往往聚集在哪裡。AJG基於對出版物評估後的同行評審，編輯和專家判斷，並通過與引文相關的統計信息進行通報。
+              <br />
+AJG是由英國商學院協會（the Association of Business School, 簡稱ABS）出版的高質量學術期刊指南（Academic Journal Quality Guide），在2010年之前稱為ABS商學期刊指南，在2015年已經改名為AJG，並且每隔三年發佈一次。
+              <br />
+</p>
+          </blockquote>
+</li>
+      </ul>
+    </li>
+    <li>問: ABS和CABS有何不同?
+      <ul>
+        <li>
+          <blockquote>
+            <p>ChartGPT: The Association of Business Schools (ABS) 和 Chartered Association of Business Schools (CABS) 都是在英在地的商學院協會，但它們有一些重要的區別。
+              <br />
+ABS 是一個非營利的協會，成立於1984年，代表英國商學院的利益。它的主要目的是促進商學院之間的合作和交流，並提供資源和支持給成員學校。
+              <br />
+CABS 是一個專門的學術協會，成立於2015年。它是 ABS 的分支機構，致力於提高商學院的教學質量和研究能力。 CABS 已經獲得了皇家特許學術協會的地位，這意味著它已經獲得了國家認可的專業資格。
+              <br />
+總而言之，ABS 是一個統一的商學院協會，致力於促進合作和交流，而 CABS 是專門的學術協會，致力於提高教學和研究水平。
+              <br />
+</p>
+          </blockquote>
+</li>
+      </ul>
+    </li>
+    <li>問: ABS和CABS有何不同?
+      <ul>
+        <li>
+          <blockquote>
+            <p>ChartGPT: The Association of Business Schools (ABS) 和 Chartered Association of Business Schools (CABS) 都是在英在地的商學院協會，但它們有一些重要的區別。
+              <br />
+ABS 是一個非營利的協會，成立於1984年，代表英國商學院的利益。它的主要目的是促進商學院之間的合作和交流，並提供資源和支持給成員學校。
+              <br />
+CABS 是一個專門的學術協會，成立於2015年。它是 ABS 的分支機構，致力於提高商學院的教學質量和研究能力。 CABS 已經獲得了皇家特許學術協會的地位，這意味著它已經獲得了國家認可的專業資格。
+              <br />
+總而言之，ABS 是一個統一的商學院協會，致力於促進合作和交流，而 CABS 是專門的學術協會，致力於提高教學和研究水平。
+              <br />
+</p>
+          </blockquote>
+</li>
+      </ul>
+    </li>
+    <li></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>
